@@ -1,10 +1,11 @@
 from Robot import Robot
 from weapons import Weapon
 
-robo_1 = Robot("Robo Cop", 100, random_weapons)
+robo_cop = Robot("Robo Cop", 100)
 
-robo_2 = Robot("Terminator", 100, random_weapons)
+terminator = Robot("Terminator", 100)
 
-robo_3 = Robot("Alfa", 100, random_weapons)
+alpha = Robot("Alpha", 100)
 
-print(robo_1)
+robo_list = [ robo_cop, terminator, alpha]
+
