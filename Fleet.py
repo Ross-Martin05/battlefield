@@ -1,11 +1,16 @@
-from Robot import Robot
-from weapons import Weapon
+from robot import Robot
+from weapon import Weapon
 
-robo_cop = Robot("Robo Cop", 100)
+class Fleet:
 
-terminator = Robot("Terminator", 100)
+    def __init__(self) -> None:
+        self.robot = Robot(name, health)
+        self.robot_list = []
 
-alpha = Robot("Alpha", 100)
+def create_fleet(self):
+    robo_cop = Robot("Robo Cop", 100)
+    terminator = Robot("Terminator", 100)
+    alpha = Robot("Alpha", 100)
+    self.robot_list.extend([robo_cop, terminator, alpha])
 
-robo_list = [ robo_cop, terminator, alpha]
 
